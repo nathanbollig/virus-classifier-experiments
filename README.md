@@ -1,9 +1,8 @@
-# Supplemental Files for 776 Project
-Title: "Evaluating Machine Learning Approaches for Predicting Human Infection Risk from Coronavirus Spike Protein Sequences"
+
+# Evaluating Machine Learning Approaches for Predicting Human Infection Risk from Coronavirus Spike Protein Sequences
 
 Please see below the description of Supplemental Data, Basic Workflow, and how to re-create Transformer embeddings.
 
-==========================================================================================================================================================
 ## SUPPLEMENTAL DATA
 
 Files:
@@ -11,7 +10,6 @@ Files:
  * cv_group_7_fold.csv - Supplemental data from species-aware splitting experiment
  * output.txt - Stdout from experiments
 
-==========================================================================================================================================================
 ## HOW TO RUN THE PROJECT
 
 Files needed for basic project workflow:
@@ -25,7 +23,6 @@ Basic Workflow:
 	3. Run the file kuzmin_model_776.py. No arguments are needed. Pipe to a text file to preserve stdout, if desired. Some fold metadata is printed to the screen as shown in the included output.txt.
 	4. The project will run, generating cv_bad_split_7_fold.csv, cv_group_7_fold.csv, and the figures from the paper. 
 
-==========================================================================================================================================================
 ## HOW TO RE-CREATE TRANSFORMER EMBEDDINGS
 
 File needed:
@@ -49,8 +46,6 @@ STEP 2: Run the split sequences through the Transformer.
 
 STEP 3: Follow the "Basic Workflow", as above.
 
-
-==========================================================================================================================================================
 ## FILE DEFINITION SUMMARY
 
  * Sequences.fasta - Data set from Kuzmin et al.
@@ -61,5 +56,3 @@ STEP 3: Follow the "Basic Workflow", as above.
  * cv_bad_split_7_fold.csv - Supplemental data from simple splitting experiment
  * cv_group_7_fold.csv - Supplemental data from species-aware splitting experiment
  * output.txt - Stdout from experiments
- 
- ==========================================================================================================================================================
